@@ -1,0 +1,69 @@
+.expenses-container {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.8rem;
+  gap: 10px;
+}
+
+.expenses-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: gray;
+
+}
+
+.expenses-table-container {
+  height: 150px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 0.75rem;
+}
+
+
+/* For WebKit browsers */
+.expenses-table-container::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+.expenses-table-container::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Background of the track */
+  border-radius: 10px; /* Rounded corners for the track */
+}
+
+.expenses-table-container::-webkit-scrollbar-thumb {
+  background-color: #1d1c1c; /* Scrollbar color */
+  border-radius: 10px; /* Rounded corners for the thumb */
+  border: 2px solid #f0f0f0; /* Adds padding around the thumb */
+}
+
+
+
+.expenses-table {
+  width: 100%;
+}
+
+
+.expenses-header-item {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.expenses-header-active {
+  color: black;
+  border-bottom: 4px solid black;
+}
+
+.expenses-header div svg {
+  margin-right: 4px;
+  margin-bottom: -2px;
+}
+
+.expenses-total {
+  color: red;
+  font-weight: 500;
+}
+
+.expenses-category-icon {
+  margin-right: 6px;
+}

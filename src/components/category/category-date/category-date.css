@@ -1,0 +1,25 @@
+.category-date-container {
+  margin-bottom: 10px;
+}
+
+.category-date-container select {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-family: 'Poppins', serif;
+  width: 95px;
+  margin-right: 5px;
+}
+
+.category-date-container .category-date-year {
+  width: 55px;
+}
+
+.category-date-container select:hover {
+
+  cursor: pointer;  
+}
+
+.category-date-container select option:hover {
+  cursor: pointer;
+}

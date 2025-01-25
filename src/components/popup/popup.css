@@ -1,0 +1,89 @@
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+
+/* Style for the popup box */
+.popup-box {
+  width: 350px;
+  padding: 40px;
+  background: linear-gradient(145deg, #ffffff, #f0f0f0);
+  border-radius: 12px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+  text-align: left;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.popup-box-cross-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: rgba(0, 0, 0, 0.863);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.popup-box-cross-icon:hover {
+  transform: scale(1.2);
+}
+
+.popup-title {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.popup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.popup-label {
+  font-size: 0.9rem;
+  color: #555;
+  font-weight: 500;
+}
+
+.popup-input,
+.popup-select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.80rem;
+  transition: border-color 0.3s;
+  font-family: 'Poppins';
+}
+
+.popup-input:focus,
+.popup-select:focus {
+  border-color: black;
+  outline: none;
+}
+
+.popup-button {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.863);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.popup-button:hover {
+  background-color: black;
+}

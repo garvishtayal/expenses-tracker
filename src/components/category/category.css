@@ -1,0 +1,27 @@
+.category-container {
+  display: flex;
+  padding: 10px 0px;
+  flex-wrap: wrap;
+  border-top: 1px solid rgb(240, 236, 236);
+  margin-bottom: 30px;
+}
+
+.category-holder {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 70px;
+  justify-content: center;
+  padding-left: 10px;
+  border-radius: 8px;
+  font-size: 0.75rem;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(238, 234, 234);
+}
+
+.category-react-icon {
+  display: inline;
+  margin-right: 5px;
+}

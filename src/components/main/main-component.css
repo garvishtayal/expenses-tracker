@@ -1,0 +1,32 @@
+body {
+  padding: 70px 60px 20px 70px;
+}
+
+.main-component-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-component-expense-tracker {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-component-expense-tracker svg {
+  cursor: pointer;
+}
+
+h1, h4 {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 15px 0;
+  font-weight: 600;
+}
+
+h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
