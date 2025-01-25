@@ -14,14 +14,14 @@
 
 /* Style for the popup box */
 .popup-box {
-  width: 350px;
-  padding: 40px;
+  width: 300px;
+  padding: 35px;
   background: linear-gradient(145deg, #ffffff, #f0f0f0);
   border-radius: 12px;
   box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
   text-align: left;
   position: relative;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .popup-box-cross-icon {
@@ -38,20 +38,20 @@
 }
 
 .popup-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #333;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 .popup-form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
 }
 
 .popup-label {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #555;
   font-weight: 500;
 }
@@ -59,10 +59,10 @@
 .popup-input,
 .popup-select {
   width: 100%;
-  padding: 8px;
+  padding: 6px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-size: 0.80rem;
+  font-size: 0.7rem;
   transition: border-color 0.3s;
   font-family: 'Poppins';
 }
@@ -74,12 +74,13 @@
 }
 
 .popup-button {
-  padding: 10px;
+  padding: 7px;
   background-color: rgba(0, 0, 0, 0.863);
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: 1rem;
+  font-size: 0.8rem;
+  font-family: 'Poppins';
   cursor: pointer;
   transition: background-color 0.3s;
 }

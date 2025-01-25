@@ -14,18 +14,18 @@ function MainComponent() {
 
   return (
     <div className='main-component-container'>
-      <FaCreditCard size={50} />
+      <FaCreditCard size={43} />
 
       <div className='main-component-expense-tracker'>
-        <h1>Expense Tracker</h1>
-        <BiSolidAddToQueue size={26} onClick={() => setIsPopupVisible(!isPopupVisible)}/>
+        <h2>Expense Tracker</h2>
+        <BiSolidAddToQueue size={23} onClick={() => setIsPopupVisible(!isPopupVisible)}/>
       </div>
 
 
-      <h4>Categories</h4>
+      <h5>Categories</h5>
       <Category />
 
-      <h4>Expenses</h4>
+      <h5>Expenses</h5>
       <Expenses />
 
       {isPopupVisible && <Popup onClose={() => setIsPopupVisible(!isPopupVisible)} />}

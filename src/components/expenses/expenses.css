@@ -1,8 +1,13 @@
 .expenses-container {
   display: flex;
   flex-direction: column;
-  font-size: 0.8rem;
-  gap: 10px;
+  font-size: 0.7rem;
+  gap: 3px;
+}
+
+.expenses-container input {
+  font-size: 0.7rem;
+  font-family: 'Poppins';
 }
 
 .expenses-header {
@@ -10,14 +15,14 @@
   align-items: center;
   gap: 10px;
   color: gray;
-
+  margin-bottom: 10px;
 }
 
 .expenses-table-container {
-  height: 150px;
+  height: 100px;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
 }
 
 
@@ -45,13 +50,13 @@
 
 
 .expenses-header-item {
-  padding: 8px;
+  padding: 0px ;
   cursor: pointer;
 }
 
 .expenses-header-active {
   color: black;
-  border-bottom: 4px solid black;
+  border-bottom: 3px solid black;
 }
 
 .expenses-header div svg {
